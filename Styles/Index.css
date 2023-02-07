@@ -1,26 +1,20 @@
 .squares{
 /* Squares */
-position: absolute;
+position: 100%;
 width: 1152px;
 height: 700px;
 background: #370617;
 justify-content: space-evenly;
-align-items: center;
-
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
+align-items: baseline;
 }
 
 .first-block{
-/* First block */
-position: right;
-width: 468px;
-height: 160px;
-left: 98px;
-top: 90px;
+    /* First block */
+    position: right;
+    width: 468px;
+    height: 160px;
+    left: 98px;
+    top: 90px;
 }
 .first-square {
 /* Rectangle 1 */
@@ -29,14 +23,12 @@ width: 468px;
 height: 160px;
 left: 98px;
 top: 90px;
-background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
-}
-
-.container-squares {
-    display: flex;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background: #F48C06;
 }
 
 .squares-left {
@@ -48,8 +40,9 @@ left: 117px;
 top: 153px;
 background: #9D0208;
 border-radius: 4px; 
-justify-content: first baseline;
-justify-content: space-evenly;
+display: inline-flex;
+justify-content: flex-start;
+align-items: flex-end;
 }
 
 .squares-middle {
@@ -433,14 +426,6 @@ line-height: 14px;
 color: #FFFFFF;
 
 }
-
-
-
-
-
-
-
-
 
 element.style {
     background-color: #370617;
