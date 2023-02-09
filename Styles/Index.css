@@ -1,12 +1,15 @@
-.squares{
+.Squares{
 /* Squares */
-position: 100%;
-width: 1152px;
-height: 900px;
+position: absolute;
+width: 1952px;
+height: 1300px;
 background: #370617;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-.first-block {
+.First-block {
 /* Rectangle 1 */
 position: absolute;
 width: 468px;
@@ -14,12 +17,11 @@ height: 160px;
 left: 98px;
 top: 90px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
-display: flex;
-justify-content: baseline;
-align-items: flex-start;
-
+border-radius: 20px;
 background: #F48C06;
+display: flex;
+justify-content: center;
+align-items: flex-start;
 }
 
 .squares-left {
@@ -30,9 +32,8 @@ height: 78px;
 left: 117px;
 top: 153px;
 background: #9D0208;
-border-radius: 4px; 
+border-radius: 4px;
 }
-
 .squares-middle {
 /* Rectangle 19 */
 position: absolute;
@@ -43,7 +44,7 @@ top: 153px;
 background: #9D0208;
 border-radius: 4px;
 }
-
+  
 .squares-right{
 /* Rectangle 10 */
 position: absolute;
@@ -55,6 +56,19 @@ background: #9D0208;
 border-radius: 4px;
 }
 
+.First-base {   
+background-color: #9D0208;
+border-radius: 15px;
+width: 100px;
+height: 10px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-basis: 180px;
+justify-content: flex-start;
+}
+
 .Second-block {
 /* Rectangle 2 */
 position: absolute;
@@ -64,22 +78,22 @@ left: 586px;
 top: 90px;
 background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+border-radius: 20px;
 display: flex;
 justify-content: center;
 align-items: flex-start;
 }
 
-.Left-14 {
-/* Rectangle 14 */
-position: absolute;
-width: 78px;
-height: 120px;
-left: 683px;
-top: 110px;
-background: #9D0208;
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-border-radius: 4px;
+.Second-base {   
+background-color: #9D0208;
+border-radius: 15px;
+width: 100px;
+height: 100px;
+margin: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: stretch;
+justify-content: center;
 }
 
 .Third-block {
@@ -91,10 +105,23 @@ left: 98px;
 top: 270px;
 background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+border-radius: 20px;
 display: flex;
 justify-content: baseline;
 align-items: flex-start;
+}
+
+.Third-base {   
+background-color: #9D0208;
+border-radius: 15px;
+width: 100px;
+height: 100px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+justify-content: flex-end;
 }
 
 .Forth-block {
@@ -106,10 +133,22 @@ left: 586px;
 top: 270px;
 background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;  
+border-radius: 20px;  
 display: flex;
 justify-content: center;
 align-items: flex-start;
+}
+
+.Forth-base {   
+background-color: #9D0208;
+border-radius: 15px;
+width: 100px;
+height: 100px;
+margin: 20px;
+display: flex;
+justify-content: space-between;
+justify-content: center;
+align-items: center;
 }
 
 .Fifth-block {
@@ -121,10 +160,21 @@ left: 98px;
 top: 450px;
 background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+border-radius: 20px;
 display: flex;
 justify-content: baseline;
 align-items: flex-start;
+}
+
+.Fifth-base {   
+background-color: #9D0208;
+border-radius: 15px;
+width: 100px;
+height: 100px;
+margin: 20px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;   
 }
 
 .Sixth-block{
@@ -136,58 +186,21 @@ left: 586px;
 top: 450px;
 background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 8px;
+border-radius: 20px;
 display: flex;
 justify-content: baseline;
 align-items: flex-start;
 }
 
-.text {
-/* Some text */
-position: absolute;
-width: 54px;
-height: 14px;
-left: 173px;
-top: 504px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-color: #FFFFFF;
-}
-.text{
-/* Some text */
-position: absolute;
-width: 54px;
-height: 14px;
-left: 305px;
-top: 504px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-color: #FFFFFF;
-}
-
-.text {
-/* Some text */
-position: absolute;
-width: 54px;
-height: 14px;
-left: 437px;
-top: 504px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-color: #FFFFFF;
-}
-.container {
-    display: flex; 
+.Sixth-base {
+background-color: #9D0208;
+border-radius: 15px;
+min-width: 100px;
+min-height: 100px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-basis: 180px;
+justify-content: space-evenly;
 }
