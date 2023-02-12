@@ -19,9 +19,8 @@ top: 90px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 background: #F48C06;
-display: flex;
-justify-content: center;
-align-items: flex-start;
+justify-content: flex-start;
+align-items: flex-end;
 }
 
 .squares-left {
@@ -81,14 +80,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 display: flex;
 justify-content: center;
-align-items: flex-start;
+align-items: stretch;
 }
 
 .Second-base {   
 background-color: #9D0208;
 border-radius: 15px;
 width: 100px;
-height: 100px;
+min-height: 78px;
 margin: 20px;
 display: flex;
 justify-content: space-evenly;
@@ -107,8 +106,8 @@ background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 display: flex;
-justify-content: baseline;
-align-items: flex-start;
+justify-content: flex-end;
+align-items: center;
 }
 
 .Third-base {   
@@ -136,7 +135,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;  
 display: flex;
 justify-content: center;
-align-items: flex-start;
+align-items:center;
 }
 
 .Forth-base {   
@@ -162,8 +161,8 @@ background: #F48C06;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 display: flex;
-justify-content: baseline;
-align-items: flex-start;
+justify-content: flex-start;
+align-items: center;
 }
 
 .Fifth-base {   
