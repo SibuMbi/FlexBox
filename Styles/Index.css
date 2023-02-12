@@ -1,6 +1,6 @@
 .Squares{
 /* Squares */
-position: absolute;
+position:absolute;
 width: 1952px;
 height: 1300px;
 background: #370617;
@@ -70,7 +70,7 @@ justify-content: flex-start;
 
 .Second-block {
 /* Rectangle 2 */
-position: absolute;
+position:absolute;
 width: 468px;
 height: 160px;
 left: 586px;
